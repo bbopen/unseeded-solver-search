@@ -1,0 +1,9 @@
+[package]
+name = "solver-evidence-board"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+zergraph = { git = "https://github.com/bbopen/zergraph.git", rev = "19f4540d87f6e1e695ba697f5d053a31a7270e3f" }
+serde_json = "1"

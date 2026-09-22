@@ -1,0 +1,105 @@
+{
+  "generator": "built-in image_gen",
+  "total_seconds": 33,
+  "frames": [
+    {
+      "id": "00",
+      "title": "An adjustable grid",
+      "file": "frame-00.png",
+      "prompt": "Create a single 16:9 opaque dark-navy mathematical explainer keyframe in Grant Sanderson / 3Blue1Brown visual style, designed for Manim Community animation. Flat circles, straight lines, crisp serif mathematical numbers and clean sans-serif labels, generous space. Background #0B1019, ivory #F3F0E7, slate #455367, teal #5FD1C3 for selected node, coral #F47C72 for discrepancies, green #9FCC8C for satisfied rules. Use reference for exact four-node square layout and typography, but remove the old large title and bottom caption. Keep four circles in square: upper-left x1, upper-right x2, lower-right x3, lower-left x4. Nodes and edges at consistent positions across every frame. No decorative texture, no cinematic lighting. All four circle values are 0, four neighbor edges slate. No residual numbers yet. Small centered top heading 'A grid of numbers'. No additional text. This is the calm starting image.",
+      "sha256": "be59f7e9e1f0d11c505b68df9c008533352209397204014c679e9d42ca4c237c"
+    },
+    {
+      "id": "01",
+      "title": "Each number has a rule",
+      "file": "frame-01.png",
+      "prompt": "Create a single 16:9 opaque dark-navy mathematical explainer keyframe in Grant Sanderson / 3Blue1Brown visual style, designed for Manim Community animation. Flat circles, straight lines, crisp serif mathematical numbers and clean sans-serif labels, generous space. Background #0B1019, ivory #F3F0E7, slate #455367, teal #5FD1C3 for selected node, coral #F47C72 for discrepancies, green #9FCC8C for satisfied rules. Use reference for exact four-node square layout and typography, but remove the old large title and bottom caption. Keep four circles in square: upper-left x1, upper-right x2, lower-right x3, lower-left x4. Nodes and edges at consistent positions across every frame. No decorative texture, no cinematic lighting. Keep all four values 0. Top heading 'Each number has a rule'. Highlight upper-left circle ivory. Show small coral discrepancies outside square: upper-left \u22121.9, upper-right +0.2, lower-right +2.3, lower-left +0.2. Under diagram small caption 'How far each rule is from its target'. No equations yet.",
+      "sha256": "aa3c38605b18bd4bab64d8a28ca94b05d63350473301f51e80111ad50925f05e"
+    },
+    {
+      "id": "02",
+      "title": "Change one number",
+      "file": "frame-02.png",
+      "prompt": "Create a single 16:9 opaque dark-navy mathematical explainer keyframe in Grant Sanderson / 3Blue1Brown visual style, designed for Manim Community animation. Flat circles, straight lines, crisp serif mathematical numbers and clean sans-serif labels, generous space. Background #0B1019, ivory #F3F0E7, slate #455367, teal #5FD1C3 for selected node, coral #F47C72 for discrepancies, green #9FCC8C for satisfied rules. Use reference for exact four-node square layout and typography, but remove the old large title and bottom caption. Keep four circles in square: upper-left x1, upper-right x2, lower-right x3, lower-left x4. Nodes and edges at consistent positions across every frame. No decorative texture, no cinematic lighting. Top heading 'Change one number'. Upper-left value changes to \u22120.5; remaining three remain 0. Upper-left circle teal. Four discrepancies correctly read upper-left \u22120.85, upper-right \u22120.3, lower-right +2.3, lower-left \u22120.3. Emphasize \u22120.85 with coral and make the other discrepancy labels muted slate, still legible. All edges slate. Bottom 'One adjustable value'. Preserve square location.",
+      "sha256": "39ee9421117e3a05b4813923d6d4b11c224a619e9d007b3d3365f04e42c92c53"
+    },
+    {
+      "id": "03",
+      "title": "Its neighbors change too",
+      "file": "frame-03.png",
+      "prompt": "Create a single 16:9 opaque dark-navy mathematical explainer keyframe in Grant Sanderson / 3Blue1Brown visual style, designed for Manim Community animation. Flat circles, straight lines, crisp serif mathematical numbers and clean sans-serif labels, generous space. Background #0B1019, ivory #F3F0E7, slate #455367, teal #5FD1C3 for selected node, coral #F47C72 for discrepancies, green #9FCC8C for satisfied rules. Use reference for exact four-node square layout and typography, but remove the old large title and bottom caption. Keep four circles in square: upper-left x1, upper-right x2, lower-right x3, lower-left x4. Nodes and edges at consistent positions across every frame. No decorative texture, no cinematic lighting. Keep all numbers EXACTLY as reference prior frame: upper-left \u22120.5 and three zeros; discrepancies \u22120.85, \u22120.3, +2.3, \u22120.3. Top heading 'Its neighbors change too'. Highlight top and left edges teal and upper-right/lower-left circle outlines teal. Upper-left remains teal. Highlight the two \u22120.3 discrepancies coral; other discrepancies muted slate. Bottom 'The rules are connected'. No arrows or additional numbers.",
+      "sha256": "3613c82f7e66d81b4fcc7e340af15a26b0eb3bb717405da639d55a5debcafe79"
+    },
+    {
+      "id": "04",
+      "title": "A local tradeoff",
+      "file": "frame-04.png",
+      "prompt": "Create a single 16:9 opaque dark-navy mathematical explainer keyframe in Grant Sanderson / 3Blue1Brown visual style, designed for Manim Community animation. Flat circles, straight lines, crisp serif mathematical numbers and clean sans-serif labels, generous space. Background #0B1019, ivory #F3F0E7, slate #455367, teal #5FD1C3 for selected node, coral #F47C72 for discrepancies, green #9FCC8C for satisfied rules. Use reference for exact four-node square layout and typography, but remove the old large title and bottom caption. Keep four circles in square: upper-left x1, upper-right x2, lower-right x3, lower-left x4. Nodes and edges at consistent positions across every frame. No decorative texture, no cinematic lighting. Keep square values \u22120.5,0,0,0 and all current discrepancy values exactly correct. Top heading 'One improves. Two get worse.'. Make selected node and incident edges teal. Beside upper-left discrepancy add small two-line comparison 'Before \u22121.9' and 'Now \u22120.85', with label 'Closer to zero'. Beside each affected neighbor upper-right/lower-left show 'Before +0.2' and 'Now \u22120.3', with label 'Farther from zero'. Opposite lower-right only '+2.3' muted. Keep all labels separated from nodes with ample whitespace. Bottom 'Distance from zero measures disagreement'.",
+      "sha256": "1f1d084e0fb4997c28ee6d264956cb741360552c12b668a2e7fd380125c0b41d"
+    },
+    {
+      "id": "05",
+      "title": "All rules agree",
+      "file": "frame-05.png",
+      "prompt": "Create a single 16:9 opaque dark-navy mathematical explainer keyframe in Grant Sanderson / 3Blue1Brown visual style, designed for Manim Community animation. Flat circles, straight lines, crisp serif mathematical numbers and clean sans-serif labels, generous space. Background #0B1019, ivory #F3F0E7, slate #455367, teal #5FD1C3 for selected node, coral #F47C72 for discrepancies, green #9FCC8C for satisfied rules. Use reference for exact four-node square layout and typography, but remove the old large title and bottom caption. Keep four circles in square: upper-left x1, upper-right x2, lower-right x3, lower-left x4. Nodes and edges at consistent positions across every frame. No decorative texture, no cinematic lighting. Same square layout. Clockwise node values now upper-left1, upper-right2, lower-right3, lower-left2. All four circles green outlines and each outside discrepancy exactly '0' green. Remove all before/now annotations. Top heading 'Get all the rules to agree'. Bottom 'One solution: [1, 2, 3, 2]'. This is the solution of the teaching example. Keep camera/layout fixed.",
+      "sha256": "952b176e2eccf2b0726707c98eeb03dfa58dbbd18b4b8fc11472f1d3ef926a82"
+    }
+  ],
+  "clips": [
+    {
+      "id": 1,
+      "duration": 8,
+      "narration": "Suppose I give you a grid of numbers, and a rule that each number has to satisfy.",
+      "motion": "Hold the four numbers for one second. Introduce the four discrepancies, then highlight the first rule. Hold the end frame for one second.",
+      "start": 0,
+      "end": 8,
+      "first_frame": "frame-00.png",
+      "last_frame": "frame-01.png",
+      "video_prompt": "Generate a 8-second 16:9 animation in Grant Sanderson / 3Blue1Brown style using the attached first and last frames. Precise Manim-like geometry, deliberate smooth motion and clear visual teaching. Keep camera fixed and preserve node identities, values, colors and readable typography. Hold the four numbers for one second. Introduce the four discrepancies, then highlight the first rule. Hold the end frame for one second. Narration, verbatim: \"Suppose I give you a grid of numbers, and a rule that each number has to satisfy.\" Deliver the sentence naturally with a short visual pause. Match the supplied endpoints. Keep the same narrator and audio character across all five clips."
+    },
+    {
+      "id": 2,
+      "duration": 5,
+      "narration": "You can change any of the numbers.",
+      "motion": "Select the upper-left number and change it from 0 to \u22120.5. Update every discrepancy simultaneously to its correct value; keep neighbor labels muted so focus stays on the selected number.",
+      "start": 8,
+      "end": 13,
+      "first_frame": "frame-01.png",
+      "last_frame": "frame-02.png",
+      "video_prompt": "Generate a 5-second 16:9 animation in Grant Sanderson / 3Blue1Brown style using the attached first and last frames. Precise Manim-like geometry, deliberate smooth motion and clear visual teaching. Keep camera fixed and preserve node identities, values, colors and readable typography. Select the upper-left number and change it from 0 to \u22120.5. Update every discrepancy simultaneously to its correct value; keep neighbor labels muted so focus stays on the selected number. Narration, verbatim: \"You can change any of the numbers.\" Deliver the sentence naturally with a short visual pause. Match the supplied endpoints. Keep the same narrator and audio character across all five clips."
+    },
+    {
+      "id": 3,
+      "duration": 7,
+      "narration": "But changing one also affects the rules at its neighbors.",
+      "motion": "Keep values fixed. Trace the top and left connections, then highlight the two neighboring discrepancies. Hold so the viewer can follow both connections.",
+      "start": 13,
+      "end": 20,
+      "first_frame": "frame-02.png",
+      "last_frame": "frame-03.png",
+      "video_prompt": "Generate a 7-second 16:9 animation in Grant Sanderson / 3Blue1Brown style using the attached first and last frames. Precise Manim-like geometry, deliberate smooth motion and clear visual teaching. Keep camera fixed and preserve node identities, values, colors and readable typography. Keep values fixed. Trace the top and left connections, then highlight the two neighboring discrepancies. Hold so the viewer can follow both connections. Narration, verbatim: \"But changing one also affects the rules at its neighbors.\" Deliver the sentence naturally with a short visual pause. Match the supplied endpoints. Keep the same narrator and audio character across all five clips."
+    },
+    {
+      "id": 4,
+      "duration": 8,
+      "narration": "So a move that fixes one part of the grid can disturb another.",
+      "motion": "Keep current values fixed. Reveal before/now comparisons one at a time: the selected discrepancy is closer to zero, while both neighboring discrepancies are farther away. Use emphasis, not another numerical update.",
+      "start": 20,
+      "end": 28,
+      "first_frame": "frame-03.png",
+      "last_frame": "frame-04.png",
+      "video_prompt": "Generate a 8-second 16:9 animation in Grant Sanderson / 3Blue1Brown style using the attached first and last frames. Precise Manim-like geometry, deliberate smooth motion and clear visual teaching. Keep camera fixed and preserve node identities, values, colors and readable typography. Keep current values fixed. Reveal before/now comparisons one at a time: the selected discrepancy is closer to zero, while both neighboring discrepancies are farther away. Use emphasis, not another numerical update. Narration, verbatim: \"So a move that fixes one part of the grid can disturb another.\" Deliver the sentence naturally with a short visual pause. Match the supplied endpoints. Keep the same narrator and audio character across all five clips."
+    },
+    {
+      "id": 5,
+      "duration": 5,
+      "narration": "Your task is to get all the rules to agree.",
+      "motion": "Transition from the current guess to the known teaching solution [1,2,3,2]. Bring all four discrepancies to zero together and hold for the final second. This depicts the goal, not execution of the discovered solver.",
+      "start": 28,
+      "end": 33,
+      "first_frame": "frame-04.png",
+      "last_frame": "frame-05.png",
+      "video_prompt": "Generate a 5-second 16:9 animation in Grant Sanderson / 3Blue1Brown style using the attached first and last frames. Precise Manim-like geometry, deliberate smooth motion and clear visual teaching. Keep camera fixed and preserve node identities, values, colors and readable typography. Transition from the current guess to the known teaching solution [1,2,3,2]. Bring all four discrepancies to zero together and hold for the final second. This depicts the goal, not execution of the discovered solver. Narration, verbatim: \"Your task is to get all the rules to agree.\" Deliver the sentence naturally with a short visual pause. Match the supplied endpoints. Keep the same narrator and audio character across all five clips."
+    }
+  ]
+}

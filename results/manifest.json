@@ -1,0 +1,23 @@
+{
+  "protocol": "small-search-v1",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "proposals_per_arm": 16384,
+  "search_steps": 48,
+  "evaluation_steps": 128,
+  "training_systems": 8,
+  "heldout_systems_per_method": 48,
+  "selection": "mean training reward only; one winner per seed and arm",
+  "search_sources": "random programs and single-field mutations; no known-method seeds",
+  "budget": "same proposal count; distinct evaluations and elapsed times also reported",
+  "precision": "CPU float64",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "source_sha256": "bb5329336102490453ed355ee1a0d1b5713d4b1ff7ac07760da53cf21e31e1f0",
+  "runner_sha256": "05ee7004b09313de2aaded2a816d58b70e7bb9cd88ecd07e2d3361d72e8e0979",
+  "binary_sha256": "5b3300c0eea17e0606d7476046254787ba63a1933807cbf332575b4aebe0749f",
+  "build_seconds": 0.007012792000000004,
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)"
+}

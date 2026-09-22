@@ -1,0 +1,252 @@
+{
+  "generator": "built-in image_gen",
+  "frames": [
+    {
+      "id": "01a",
+      "title": "The coupled puzzle",
+      "file": "01a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Four points form a square in the center: x1 top left, x2 top right, x3 bottom right, x4 bottom left. Large current values 0 inside all four points. Thin slate neighbor edges, no diagonals. Beside each point small coral residual meter labeled respectively \u22121.9, +0.2, +2.3, +0.2. Title: 'One move changes several rules'. Small bottom text 'Current guess: [0, 0, 0, 0]'. Make the x1 point ivory outline, ready for next frame. No matrix yet.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "0f6a1012edf63d84195e898dd97bc8a096b14dfc2b7dac53037b87bbb9c6398f",
+      "source_file": "exec-f309772a-ce1c-4217-8585-e1468f8eb2ec.png"
+    },
+    {
+      "id": "01b",
+      "title": "A move and a larger grid",
+      "file": "01b.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Same four-point square on left, now values x1=1, x2=0, x3=0, x4=0. Residual meter labels x1 \u22124.0, x2 +1.2, x3 +2.3, x4 +1.2. Highlight changed x1 and its two adjacent edges. On right show a clean 8 by 8 lattice of small dots and neighbor links. A simple camera-expansion arrow connects the square to the lattice. Title 'How should we choose the next move?' Bottom 'Changing one number affects its neighbors'. No equations or invented metrics.",
+      "correction": "Keep layout and style exactly. Correct the teaching move: change the x1 node value from 1 to \u22120.5. Its residual must change from \u22124.0 to \u22120.85. Both neighboring residual labels +1.2 must become \u22120.3. Keep opposite residual +2.3 and all other node values zero. This move helps x1 while worsening the neighbors. No other changes.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "5f040559715167ef6a0df1a1c918264812ae440a02208c488e41c8074e03df7d",
+      "source_file": "exec-24fd4d5d-0729-4204-b344-0ff30f5de09d.png"
+    },
+    {
+      "id": "02a",
+      "title": "Build one equation",
+      "file": "02a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Same square at left, values clockwise 1,2,3,2. Highlight x1 and the edges to x2 and x4. On right show large readable typeset equation '0.1x\u2081 + (x\u2081 \u2212 x\u2082) + (x\u2081 \u2212 x\u2084) = \u22121.9', broken over two lines only if necessary. Below two short number lines, each with points at 1 and 2 and a left-pointing bracket labeled '1 \u2212 2 = \u22121'. Separate thin tether from x1 to a small zero marker, labeled '0.1 \u00d7 1'. Title 'A number, its neighbors, and a target'. No extra formula.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "11aaad8075f7d2b27c1b9c6a4a62730e05bac386ab92911cb768716e4bd9ff38",
+      "source_file": "exec-20c78697-2c6e-4044-8edc-16ad780ffdbc.png"
+    },
+    {
+      "id": "02b",
+      "title": "Four equations and solution",
+      "file": "02b.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Same four-point square at left, values clockwise 1,2,3,2, now all four small meter marks green zero. Right a neatly aligned system exactly '2.1x\u2081 \u2212 x\u2082 \u2212 x\u2084 = \u22121.9'; '2.1x\u2082 \u2212 x\u2081 \u2212 x\u2083 = 0.2'; '2.1x\u2083 \u2212 x\u2082 \u2212 x\u2084 = 2.3'; '2.1x\u2084 \u2212 x\u2081 \u2212 x\u2083 = 0.2'. Bottom 'Solution: [1, 2, 3, 2]'. Title 'Four numbers. Four rules.' Small subcaption 'Teaching example'. No checks beyond these equations.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "3b7340550349424a5df85e2bf2baec3f581a35125459ccc7bfa2bb5a7fee8683",
+      "source_file": "exec-f08887b7-21e3-4dd6-834d-835d54837eb5.png"
+    },
+    {
+      "id": "03a",
+      "title": "Residual from a wrong guess",
+      "file": "03a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Four zero-valued square nodes on left, each paired with coral target residual \u22121.9,+0.2,+2.3,+0.2 in clockwise order. On right three vertical vector lists: target b = [\u22121.9,0.2,2.3,0.2], minus current left sides Ax = [0,0,0,0], equals residual r = [\u22121.9,0.2,2.3,0.2]. Use mathematical column vectors and large minus/equal signs. Bottom centerpiece 'r = b \u2212 Ax', r coral. Title 'The residual tells us which rules disagree'.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "0975f0df4065a24f3c7091e99bcc1db87446e50bac2a2f85b56d7baf8c0cce6c",
+      "source_file": "exec-6ec8772e-78de-46d1-93ae-6089a29cd6c2.png"
+    },
+    {
+      "id": "03b",
+      "title": "A local direction",
+      "file": "03b.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Left a large 4x4 matrix A with rows [2.1,\u22121,0,\u22121], [\u22121,2.1,\u22121,0], [0,\u22121,2.1,\u22121], [\u22121,0,\u22121,2.1]. Highlight only its four diagonal 2.1 entries teal. Right large 'z\u1d62 = r\u1d62 / A\u1d62\u1d62' then concrete 'z\u2081 = \u22121.9 / 2.1 \u2248 \u22120.905'. Bottom horizontal vector arrow teal labeled 'direction', followed by 'x_new = x + \u03b1d', caption 'A supplied rule chooses the step length \u03b1'. Title 'Start with a local correction'. No residual-minimizing claim.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "8206426c46020eef3f2fd9ef3488b2b9f9e9ecb100b5bd1c2895f65878bb9134",
+      "source_file": "exec-4e0922a7-bff5-4bda-8690-8c0954a950be.png"
+    },
+    {
+      "id": "04a",
+      "title": "Six instruction language",
+      "file": "04a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Input tray top: coral r residual, teal z local correction, gold s previous step, muted previous r, previous z, and ones. Under tray exactly SIX numbered rounded slots in one horizontal chain: '1: half(s)', '2: add(z, 1)', '3: mean(r)', '4: add(2, 3)', '5: neg(r)', '6: add(4, ones)'. Connection arrows only forward, labels on inputs legible. Highlight just last operation field with a thin gold outline to suggest mutation. These are an illustrative program, NOT winning formula. Bottom caption 'One instruction or input can change'. Title 'Search over short programs'. Small operation tray 'add \u00b7 half \u00b7 mean \u00b7 multiply \u00b7 dot \u00b7 apply A'. No claims of neural training.",
+      "correction": "Keep all six instruction text boxes, input tray, operations tray, title, colors and background. Remove ALL connecting arrows between inputs and instructions and between neighboring instructions: these arrows currently imply incorrect data dependencies. Keep the boxes as an ordered list of six slots. Add small label above slots 'Execute in order; numbers refer to earlier slots'. Keep gold highlight only around slot 6. No new arrows. Keep all instruction text unchanged.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "dacdae0c354c713e3f6e3e623cb3bd3d48babb6466e5d2427b86faa144226846",
+      "source_file": "exec-8b22130f-3340-4a50-b4f2-e030b51117df.png"
+    },
+    {
+      "id": "04b",
+      "title": "Evolution with random exploration",
+      "file": "04b.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Flat diagram of program cards feeding a 2 by 4 array of eight small practice grids, then a score column. Split return path: selected program cards \u2192 'Change one field' \u2192 proposed cards, and separate random-card source \u2192 'Try fresh random programs' \u2192 same proposed cards. Clearly label '8 practice systems', 'Test', 'Keep some', and 'Mutate'. Title 'Test, keep, change \u2014 and keep exploring'. Bottom 'No complete solver formula is supplied as a starting program'. No fake measured numeric scores.",
+      "correction": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Use the reference ONLY for typography/colors. Replace its crowded diagram with this precise simple flow: four rectangular boxes across the middle, ordered LEFT TO RIGHT: 'Propose programs' \u2192 'Test on 8 practice systems' \u2192 'Score' \u2192 'Keep some'. Inside test box exactly eight tiny squares in two rows of four, no equations. Beneath the rightmost box place 'Mutate one field'. One arrow goes DOWN from 'Keep some' to 'Mutate one field'. A long return arrow goes LEFT from 'Mutate one field' under the row and then UP into 'Propose programs'. At far left bottom a separate box 'Fresh random programs' has one arrow UP into 'Propose programs'. No other arrows. Top title 'Test, keep, change \u2014 and keep exploring'. Bottom 'No complete solver formula is supplied as a starting program'. No faux source code, no scoring numbers. Allow abundant space around arrows.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "a44542d1a59191f2e6c0c43b2152d58c7a8cdf5d4e1d94e937d9b7c2ec7c5771",
+      "source_file": "exec-d413ac5c-668d-4152-9933-a637ab1bb2f9.png"
+    },
+    {
+      "id": "05a",
+      "title": "Duplicate computation reuse",
+      "file": "05a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Two program cards left containing same exact active formula 'z + 0.5s' both connect to ONE evaluator box in center; two result arrows return the SAME score token to each. Label '2 proposals' above left and '1 evaluation' above evaluator. Right restrained three-line metrics '6 searches', '98,304 proposals', 'about 16 seconds'. Below metrics 'Recorded CPU search processes' and 'Build and final tests excluded'. Title 'Make each question cheap'.",
+      "correction": "Keep everything else exactly. Replace both numeric score tokens '0' with the same italic letter 'q'. They are symbolic equal scores, not measurements. Change evaluator box formula 'f(z,s)' to the word 'Evaluate'. No new content.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "a07c0c43e7e4f55d6697a132969945e64fc06a8fd0a9165f82d14bec8530f243",
+      "source_file": "exec-bd93d38f-1c6c-47eb-8c3f-9a14ce696268.png"
+    },
+    {
+      "id": "06a",
+      "title": "The discovered formula",
+      "file": "06a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Title 'The formula from Run A'. Large centered single equation exactly 'd = (0.5s + z) + mean(r)\u00b7one'. Color 0.5s gold, z teal, mean(r)\u00b7one lavender; d ivory. Three thin underbraces below corresponding terms labeled 'Previous move', 'Local correction', 'Shared correction'. Lower portion illustrates mean using four coral values '\u22120.2, 0.0, \u22120.1, \u22120.1', then '(\u22120.2 + 0.0 \u2212 0.1 \u2212 0.1) / 4 = \u22120.1', then lavender equal entries '[\u22120.1, \u22120.1, \u22120.1, \u22120.1]'. Keep formula area uncluttered. Small top kicker 'Small CPU demonstration'. No alternative expression reorder.",
+      "correction": "Keep all layout, equations, values and colors. Change ONLY the small label 'Residuals from Run A' to 'Example residuals'. These four values are an explanatory example, not recorded Run A data. No other changes.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "0d89b9779fabda2c0ea2840ebd85fef16a5c3f53f0ed1c8c210a6baca040e9a3",
+      "source_file": "exec-18d503af-a328-4eab-ace8-6d9caa3fa889.png"
+    },
+    {
+      "id": "07a",
+      "title": "Predict the uniform shift",
+      "file": "07a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Two identical four-point square diagrams side by side with a central '+1 everywhere' arrow. Left clockwise values [1,2,3,2], right [2,3,4,3]. On both exactly same signed edge-difference labels matching edges: top \u22121, right \u22121, bottom +1, left +1 where direction is clockwise. Use fixed orientation arrow ticks for direction. Title 'What happens to the neighbor differences?' Bottom large equation '(x\u1d62 + 1) \u2212 (x\u2c7c + 1) = x\u1d62 \u2212 x\u2c7c' with +1 and \u22121 lavender cancellation marks. Small 'Pause and predict'. No performance claims.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "f5aa4693448e29da8e0e3f137a19c50c514271542455d7baa03d7f45aa779fdf",
+      "source_file": "exec-9a23e05f-8c53-4887-bf95-cce57aada244.png"
+    },
+    {
+      "id": "07b",
+      "title": "What the tethers notice",
+      "file": "07b.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Same two square diagrams with values [1,2,3,2] then [2,3,4,3]. Neighbor edges slate, identical thickness. Short lavender tethers from each point toward separate zero anchors, second set longer. Right clear labels 'Answer error: +1 at every point' and coral 'Residual: [\u22120.1, \u22120.1, \u22120.1, \u22120.1]'. Title 'The neighbors miss the shared offset'. Bottom 'Only the 0.1x term changes'. Include small 'A small residual can hide a larger answer error'. No slow-convergence or iteration plot.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "758392e9c36385b1608fa3fb70675ba80e66710bb9d547b3f6023575aa5a61fe",
+      "source_file": "exec-9bbf8572-e42d-411b-9568-63207cf85a33.png"
+    },
+    {
+      "id": "07c",
+      "title": "Separate two shapes of error",
+      "file": "07c.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Three clean side-by-side discrete line plots with nine points each: left irregular heights around a positive offset, center same irregular deviations centered on zero, right nine points all at a constant positive height. Large equals and plus signs connect left = center + right. Coral irregular points, lavender uniform component. Each plot only simple baseline, no numeric measured axis. Labels 'Mixed error', 'Local variation', 'Uniform offset'. Thin lavender bracket under uniform line labeled 'The mean isolates this part'. Title 'An error can have more than one shape'. Bottom 'Illustration: periodic grid with a constant shift'. This is a conceptual decomposition not measured solver data.",
+      "correction": "Keep title, palette and overall three-column decomposition. Redraw each plot with exactly FIVE equally spaced samples and a common vertical scale, using these exact values: left Mixed error [1,3,2,3,1]; middle Local variation [-1,1,0,1,-1]; right Uniform offset [2,2,2,2,2]. Label each dot with its numeric value, remove all x-index labels. All three zero baselines at same height; use 55 pixels per unit so pointwise left heights equal middle plus right. Middle local variation now has mean zero. Keep equality and plus signs, footer, and lavender bracket. No other data or claims.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "8ad2990d93c99d4b7d01817946c4aad6c40ad999cd0f99c4994997177c87e707",
+      "source_file": "exec-a1fc239d-bd2f-4bf3-855c-fc98389e4fb2.png"
+    },
+    {
+      "id": "08a",
+      "title": "Freeze before testing",
+      "file": "08a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Top row six selected program cards labeled Evolution A, Evolution B, Evolution C, Random A, Random B, Random C, enclosed in simple frame 'Selections frozen'. Below three diagram thumbnails: larger grid, grid with differently sized tether lines, grid with fixed square border. Labels 'Larger grids', 'Varying shifts', 'Fixed boundaries'. Separate closed answer-key icon to side connected only to two check boxes 'Equation residual' and 'Answer error', NOT to solver cards. Title 'Test away from practice'. Footer '48 systems not used to choose the programs'. No invented results in this frame.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "4b6f4251f87cf191500c59773553b21ef8e12ad27eb818545a8b87ff1b48b389",
+      "source_file": "exec-f60acf1b-ec0d-4862-a9dc-8ead3c791a46.png"
+    },
+    {
+      "id": "08b",
+      "title": "Reveal all results",
+      "file": "08b.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: A restrained typographic results frame, no misleading bar chart. Title 'What passed the fresh tests?'. Two equal columns evolution and random with rows 'Evolution A   48 / 48', 'Evolution B   48 / 48', 'Evolution C   45 / 48' and 'Random A   47 / 48', 'Random B   47 / 48', 'Random C   47 / 48'. Green only on48, ivory on47, coral45, with method headings matchingweight. Footer 'Same 48 systems for every method' and 'Three runs do not establish general superiority'. Small subheading 'Both residual and answer-error checks must pass'. No winner crown.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "933a417610c84af1a9911f3ea496e23d02e65737d15e7e208841f7e54aaf7bcb",
+      "source_file": "exec-e59c02e8-78a0-49ff-b715-03d6e20fe752.png"
+    },
+    {
+      "id": "08c",
+      "title": "Strong controls stay visible",
+      "file": "08c.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Same restrained results design. Title 'The established controls remain strong'. Large three aligned rows 'Local diagonal descent       12 / 48'; 'Established PCG control       48 / 48'; 'PCG with a global correction       48 / 48'. Subtitle 'PCG: preconditioned conjugate gradient'. Below three small labeled cards 'Useful constructed formulas', 'No established novelty claim', 'No solver speedup established'. Bottom 'PCG controls used less charged work in this test'. Keep easy to read, no fabricated wall-clock statistic.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "40be34e3567044f4bbf3b75560a8eab728be6277f79bd907689aa29835c885d6",
+      "source_file": "exec-11577e14-19d7-4f89-9a40-693054abb5be.png"
+    },
+    {
+      "id": "09a",
+      "title": "Evidence graph",
+      "file": "09a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Title 'Keep the tests, including failures'. Left one candidate program node branches to two distinct observation nodes: green 'Pass' and coral 'Fail', each links to separate 'Test condition' node. Right two small local record collections merge into one graph; duplicate delivery shown as dotted arrow with label 'No new observation'; lower snapshot icon and restore arrow back to same merged graph. Label storage tool 'Zergraph'. Footer exact '528 recorded solve outcomes' with 'Local merge-and-restore check'. No servers, clouds or distributed GPU cluster; no counts of independent systems.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "9ab9ece2a155b26429fdab78482eecbb5892320cb74e84e1d76f16fc4858b74c",
+      "source_file": "exec-097c4baf-a65d-4a48-9321-61d7d892e23e.png"
+    },
+    {
+      "id": "10a",
+      "title": "Return to the opening",
+      "file": "10a.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Same opening square clockwise values [1,2,3,2], centered left. Right three parallel vector arrows gold,teal,lavender labeled 'Previous step', 'Local correction', 'Uniform correction', combine through plus symbols into one ivory direction arrow. Large bottom formula 'd = (0.5s + z) + mean(r)\u00b7one' correct colors as previousframe. Title 'A rule we can read \u2014 and investigate'. Keep exact four-point geometry consistent; no new statistic or claim.",
+      "correction": "Keep layout, formula and right side arrows. Remove the FOUR coral numerical labels beside square nodes completely: \u22121.9, +0.2, +0.2, +2.3. These are not residuals for this solved state. Leave empty navy space where they were. Change right-side first label 'Previous step' to 'Half the previous step'. Add a very small label 'Schematic components' above the arrows, since lengths are illustrative. No other changes.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "c86e8e6668f8692574ff1310c8b244a5cfa5c399ac5367a8248daaa94e528398",
+      "source_file": "exec-ea405336-e578-453b-97c7-483111b422c5.png"
+    },
+    {
+      "id": "10b",
+      "title": "A more specific next question",
+      "file": "10b.png",
+      "prompt": "Use case: scientific-educational. Create ONE finished 16:9 widescreen keyframe, preferably 1920x1080, for an original mathematical explainer to be rebuilt with Manim Community. This is a single full screen, never a contact sheet. Flat precise vector-like geometry achievable with Dot, Line, Arrow, VGroup, MathTex, Text, simple axes and rounded rectangles. Solid midnight background #0B1019, ivory #F3F0E7, slate #455367; coral residual #F47C72, teal local correction #5FD1C3, gold previous step #F4C66A, lavender uniform correction #B8A0E8, green passing checks #9FCC8C. Crisp antialiasing, no texture, no bloom, no gradient lighting, no 3D, no painterly effects. Serif mathematical equations, clean sans-serif prose. Generous empty space, consistent stroke weight and typography; title top left inside 7% safe area, footer small but readable. No panel number or production notes printed. Render all specified mathematics and labels accurately. Avoid decorative elements.  Render on a completely OPAQUE solid dark navy background across the full rectangular canvas. No transparency or alpha cutout. No outline/emboss text effect: filled ivory lettering. Reference is style only. New content: Final widescreen endcard. Center four simple outlined objects in a generous circular loop: program card 'Propose', small grid 'Test', magnifying glass over observation 'Inspect', question mark 'Ask again', joined by fine arrows. Title 'What useful behavior can the search construct?' Subtitle 'What evidence would convince us that it works?'. Footer repository name 'bbopen/unseeded-solver-search'. Small 'Code, controls, and recorded results'. No external branding, logo, subscriptions, made-up URL or claim of public availability.",
+      "correction": null,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "a2d190b0b26e3ef47a11cde31cca7e9a252e802cf808933091852f1a7a520b9d",
+      "source_file": "exec-22d271d6-25c0-4757-846f-4fe4ad16b334.png"
+    }
+  ]
+}
